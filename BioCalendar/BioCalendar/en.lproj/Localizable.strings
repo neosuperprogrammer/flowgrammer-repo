@@ -1,0 +1,17 @@
+/* 
+  Localizable.strings
+  BioCalendar
+
+  Created by Sangwook Nam on 13. 5. 13..
+  Copyright (c) 2013년 Sangwook Nam. All rights reserved.
+*/
+
+"SelectPerson" = "Select Person";
+"RegisterPerson" = "Register Person";
+"Back" = "Back";
+"Physical" = "Phys.";
+"Emotional" = "Emotion.";
+"Intelligence" = "Intell.";
+"SelectPersonPlease" = "Select Person, Please";
+"Description" = "You can check biorhythm in calendar view.";
+"Keyword" = "바이오,바이오리듬,달력,캘린더,Bio,Biorhythm,Cal,Calendar";

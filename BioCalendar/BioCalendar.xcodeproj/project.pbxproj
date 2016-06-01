@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E8FC4AB174B9A24005552DB /* screenshot_768_1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E8FC4A8174B9A24005552DB /* screenshot_768_1024.png */; };
+		3E8FC4AC174B9A24005552DB /* screenshot_320_480.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E8FC4A9174B9A24005552DB /* screenshot_320_480.png */; };
+		3E8FC4AD174B9A24005552DB /* ItunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E8FC4AA174B9A24005552DB /* ItunesArtwork.png */; };
+		3E8FC4B0174B9BA0005552DB /* screenshot_640_1136.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E8FC4AE174B9BA0005552DB /* screenshot_640_1136.png */; };
+		3E8FC4B1174B9BA0005552DB /* screenshot_640_960.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E8FC4AF174B9BA0005552DB /* screenshot_640_960.png */; };
+		3EB4BBA71744C65300A6BBF5 /* NEODatePickerSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB4BBA61744C65300A6BBF5 /* NEODatePickerSheet.m */; };
+		3EBA7293174A47A2008788EF /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EBA7292174A47A2008788EF /* Icon.png */; };
+		3EBA7295174A47AB008788EF /* Icon@2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EBA7294174A47AB008788EF /* Icon@2.png */; };
+		3EBA7299174A4AD9008788EF /* NEOInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBA7297174A4AD8008788EF /* NEOInfoViewController.m */; };
+		3EBA729A174A4AD9008788EF /* NEOInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EBA7298174A4AD8008788EF /* NEOInfoViewController.xib */; };
+		3EBC430C174111BC007D6557 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EBC430B174111BC007D6557 /* UIKit.framework */; };
+		3EBC430E174111BC007D6557 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EBC430D174111BC007D6557 /* Foundation.framework */; };
+		3EBC4310174111BC007D6557 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EBC430F174111BC007D6557 /* CoreGraphics.framework */; };
+		3EBC4318174111BC007D6557 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBC4317174111BC007D6557 /* main.m */; };
+		3EBC431C174111BC007D6557 /* NEOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBC431B174111BC007D6557 /* NEOAppDelegate.m */; };
+		3EBC431E174111BC007D6557 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EBC431D174111BC007D6557 /* Default.png */; };
+		3EBC4320174111BC007D6557 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EBC431F174111BC007D6557 /* Default@2x.png */; };
+		3EBC4322174111BC007D6557 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EBC4321174111BC007D6557 /* Default-568h@2x.png */; };
+		3EBC4339174112ED007D6557 /* NEODayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EBC4333174112ED007D6557 /* NEODayView.xib */; };
+		3EBC433A174112ED007D6557 /* NEODayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBC4335174112ED007D6557 /* NEODayView.m */; };
+		3EBC433B174112ED007D6557 /* NEOTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBC4337174112ED007D6557 /* NEOTitleView.m */; };
+		3EBC433C174112ED007D6557 /* NEOTitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EBC4338174112ED007D6557 /* NEOTitleView.xib */; };
+		3EBC434217411319007D6557 /* NEOBiorhythmUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBC433F17411319007D6557 /* NEOBiorhythmUtil.m */; };
+		3EBC434317411319007D6557 /* NEODateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBC434117411319007D6557 /* NEODateUtil.m */; };
+		3EBC434617411326007D6557 /* NEOCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBC434517411326007D6557 /* NEOCalendarView.m */; };
+		3EBC434A174113EC007D6557 /* NEOCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBC4348174113EC007D6557 /* NEOCalendarViewController.m */; };
+		3EBC4351174116B1007D6557 /* SelectPersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBC434B174116B0007D6557 /* SelectPersonViewController.m */; };
+		3EBC4352174116B1007D6557 /* RegisterPersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBC434C174116B0007D6557 /* RegisterPersonViewController.m */; };
+		3EBC4353174116B1007D6557 /* RegisterPersonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EBC434D174116B1007D6557 /* RegisterPersonViewController.xib */; };
+		3EBC4354174116B1007D6557 /* SelectPersonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EBC434F174116B1007D6557 /* SelectPersonViewController.xib */; };
+		3EBC4358174116F5007D6557 /* PersonDatas.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBC4357174116F5007D6557 /* PersonDatas.m */; };
+		3EBC435B17411764007D6557 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3EBC435D17411764007D6557 /* Localizable.strings */; };
+		3EBE661817438A0F009704CF /* NEOCalloutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBE661617438A0F009704CF /* NEOCalloutView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3E8FC4A8174B9A24005552DB /* screenshot_768_1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot_768_1024.png; sourceTree = SOURCE_ROOT; };
+		3E8FC4A9174B9A24005552DB /* screenshot_320_480.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot_320_480.png; sourceTree = SOURCE_ROOT; };
+		3E8FC4AA174B9A24005552DB /* ItunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ItunesArtwork.png; sourceTree = SOURCE_ROOT; };
+		3E8FC4AE174B9BA0005552DB /* screenshot_640_1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot_640_1136.png; sourceTree = SOURCE_ROOT; };
+		3E8FC4AF174B9BA0005552DB /* screenshot_640_960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot_640_960.png; sourceTree = SOURCE_ROOT; };
+		3EB4BBA51744C65300A6BBF5 /* NEODatePickerSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEODatePickerSheet.h; sourceTree = "<group>"; };
+		3EB4BBA61744C65300A6BBF5 /* NEODatePickerSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEODatePickerSheet.m; sourceTree = "<group>"; };
+		3EBA7292174A47A2008788EF /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Icon.png; sourceTree = "<group>"; };
+		3EBA7294174A47AB008788EF /* Icon@2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2.png"; path = "../Icon@2.png"; sourceTree = "<group>"; };
+		3EBA7296174A4AD8008788EF /* NEOInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEOInfoViewController.h; sourceTree = "<group>"; };
+		3EBA7297174A4AD8008788EF /* NEOInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEOInfoViewController.m; sourceTree = "<group>"; };
+		3EBA7298174A4AD8008788EF /* NEOInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NEOInfoViewController.xib; sourceTree = "<group>"; };
+		3EBC4308174111BC007D6557 /* BioCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BioCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EBC430B174111BC007D6557 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3EBC430D174111BC007D6557 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3EBC430F174111BC007D6557 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3EBC4313174111BC007D6557 /* BioCalendar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BioCalendar-Info.plist"; sourceTree = "<group>"; };
+		3EBC4317174111BC007D6557 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3EBC4319174111BC007D6557 /* BioCalendar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BioCalendar-Prefix.pch"; sourceTree = "<group>"; };
+		3EBC431A174111BC007D6557 /* NEOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NEOAppDelegate.h; sourceTree = "<group>"; };
+		3EBC431B174111BC007D6557 /* NEOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NEOAppDelegate.m; sourceTree = "<group>"; };
+		3EBC431D174111BC007D6557 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3EBC431F174111BC007D6557 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3EBC4321174111BC007D6557 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3EBC4333174112ED007D6557 /* NEODayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NEODayView.xib; sourceTree = "<group>"; };
+		3EBC4334174112ED007D6557 /* NEODayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEODayView.h; sourceTree = "<group>"; };
+		3EBC4335174112ED007D6557 /* NEODayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEODayView.m; sourceTree = "<group>"; };
+		3EBC4336174112ED007D6557 /* NEOTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEOTitleView.h; sourceTree = "<group>"; };
+		3EBC4337174112ED007D6557 /* NEOTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEOTitleView.m; sourceTree = "<group>"; };
+		3EBC4338174112ED007D6557 /* NEOTitleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NEOTitleView.xib; sourceTree = "<group>"; };
+		3EBC433E17411319007D6557 /* NEOBiorhythmUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEOBiorhythmUtil.h; sourceTree = "<group>"; };
+		3EBC433F17411319007D6557 /* NEOBiorhythmUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEOBiorhythmUtil.m; sourceTree = "<group>"; };
+		3EBC434017411319007D6557 /* NEODateUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEODateUtil.h; sourceTree = "<group>"; };
+		3EBC434117411319007D6557 /* NEODateUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEODateUtil.m; sourceTree = "<group>"; };
+		3EBC434417411326007D6557 /* NEOCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEOCalendarView.h; sourceTree = "<group>"; };
+		3EBC434517411326007D6557 /* NEOCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEOCalendarView.m; sourceTree = "<group>"; };
+		3EBC434717411330007D6557 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		3EBC4348174113EC007D6557 /* NEOCalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEOCalendarViewController.m; sourceTree = "<group>"; };
+		3EBC4349174113EC007D6557 /* NEOCalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEOCalendarViewController.h; sourceTree = "<group>"; };
+		3EBC434B174116B0007D6557 /* SelectPersonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectPersonViewController.m; sourceTree = "<group>"; };
+		3EBC434C174116B0007D6557 /* RegisterPersonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterPersonViewController.m; sourceTree = "<group>"; };
+		3EBC434D174116B1007D6557 /* RegisterPersonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterPersonViewController.xib; sourceTree = "<group>"; };
+		3EBC434E174116B1007D6557 /* RegisterPersonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterPersonViewController.h; sourceTree = "<group>"; };
+		3EBC434F174116B1007D6557 /* SelectPersonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectPersonViewController.xib; sourceTree = "<group>"; };
+		3EBC4350174116B1007D6557 /* SelectPersonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectPersonViewController.h; sourceTree = "<group>"; };
+		3EBC4356174116F5007D6557 /* PersonDatas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonDatas.h; sourceTree = "<group>"; };
+		3EBC4357174116F5007D6557 /* PersonDatas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonDatas.m; sourceTree = "<group>"; };
+		3EBC435C17411764007D6557 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3EBC435E17411774007D6557 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3EBE661617438A0F009704CF /* NEOCalloutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEOCalloutView.m; sourceTree = "<group>"; };
+		3EBE661717438A0F009704CF /* NEOCalloutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEOCalloutView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3EBC4305174111BC007D6557 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EBC430C174111BC007D6557 /* UIKit.framework in Frameworks */,
+				3EBC430E174111BC007D6557 /* Foundation.framework in Frameworks */,
+				3EBC4310174111BC007D6557 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3EBC42FF174111BC007D6557 = {
+			isa = PBXGroup;
+			children = (
+				3EBC4311174111BC007D6557 /* BioCalendar */,
+				3EBC430A174111BC007D6557 /* Frameworks */,
+				3EBC4309174111BC007D6557 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3EBC4309174111BC007D6557 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3EBC4308174111BC007D6557 /* BioCalendar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3EBC430A174111BC007D6557 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3EBC430B174111BC007D6557 /* UIKit.framework */,
+				3EBC430D174111BC007D6557 /* Foundation.framework */,
+				3EBC430F174111BC007D6557 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3EBC4311174111BC007D6557 /* BioCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				3E8FC4AE174B9BA0005552DB /* screenshot_640_1136.png */,
+				3E8FC4AF174B9BA0005552DB /* screenshot_640_960.png */,
+				3EBC432E174111F9007D6557 /* Sources */,
+				3EBC432F17411204007D6557 /* Images */,
+				3EBC43301741120D007D6557 /* Resources */,
+			);
+			path = BioCalendar;
+			sourceTree = "<group>";
+		};
+		3EBC432E174111F9007D6557 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				3EBC4317174111BC007D6557 /* main.m */,
+				3EBC434717411330007D6557 /* Common.h */,
+				3EBC4319174111BC007D6557 /* BioCalendar-Prefix.pch */,
+				3EBC431A174111BC007D6557 /* NEOAppDelegate.h */,
+				3EBC431B174111BC007D6557 /* NEOAppDelegate.m */,
+				3EBC43311741121B007D6557 /* ViewControllers */,
+				3EBC433217411271007D6557 /* Views */,
+				3EBC4355174116E3007D6557 /* Model */,
+				3EBC433D174112FE007D6557 /* Utilities */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		3EBC432F17411204007D6557 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3E8FC4A8174B9A24005552DB /* screenshot_768_1024.png */,
+				3E8FC4A9174B9A24005552DB /* screenshot_320_480.png */,
+				3E8FC4AA174B9A24005552DB /* ItunesArtwork.png */,
+				3EBA7294174A47AB008788EF /* Icon@2.png */,
+				3EBA7292174A47A2008788EF /* Icon.png */,
+				3EBC431D174111BC007D6557 /* Default.png */,
+				3EBC431F174111BC007D6557 /* Default@2x.png */,
+				3EBC4321174111BC007D6557 /* Default-568h@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		3EBC43301741120D007D6557 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3EBC4313174111BC007D6557 /* BioCalendar-Info.plist */,
+				3EBC435D17411764007D6557 /* Localizable.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3EBC43311741121B007D6557 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3EBC4349174113EC007D6557 /* NEOCalendarViewController.h */,
+				3EBC4348174113EC007D6557 /* NEOCalendarViewController.m */,
+				3EBC4350174116B1007D6557 /* SelectPersonViewController.h */,
+				3EBC434B174116B0007D6557 /* SelectPersonViewController.m */,
+				3EBC434F174116B1007D6557 /* SelectPersonViewController.xib */,
+				3EBC434E174116B1007D6557 /* RegisterPersonViewController.h */,
+				3EBC434C174116B0007D6557 /* RegisterPersonViewController.m */,
+				3EBC434D174116B1007D6557 /* RegisterPersonViewController.xib */,
+				3EBA7296174A4AD8008788EF /* NEOInfoViewController.h */,
+				3EBA7297174A4AD8008788EF /* NEOInfoViewController.m */,
+				3EBA7298174A4AD8008788EF /* NEOInfoViewController.xib */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3EBC433217411271007D6557 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3EBC434417411326007D6557 /* NEOCalendarView.h */,
+				3EBC434517411326007D6557 /* NEOCalendarView.m */,
+				3EBC4334174112ED007D6557 /* NEODayView.h */,
+				3EBC4335174112ED007D6557 /* NEODayView.m */,
+				3EBC4333174112ED007D6557 /* NEODayView.xib */,
+				3EBC4336174112ED007D6557 /* NEOTitleView.h */,
+				3EBC4337174112ED007D6557 /* NEOTitleView.m */,
+				3EBC4338174112ED007D6557 /* NEOTitleView.xib */,
+				3EB4BBA51744C65300A6BBF5 /* NEODatePickerSheet.h */,
+				3EB4BBA61744C65300A6BBF5 /* NEODatePickerSheet.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		3EBC433D174112FE007D6557 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				3EBE661717438A0F009704CF /* NEOCalloutView.h */,
+				3EBE661617438A0F009704CF /* NEOCalloutView.m */,
+				3EBC433E17411319007D6557 /* NEOBiorhythmUtil.h */,
+				3EBC433F17411319007D6557 /* NEOBiorhythmUtil.m */,
+				3EBC434017411319007D6557 /* NEODateUtil.h */,
+				3EBC434117411319007D6557 /* NEODateUtil.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		3EBC4355174116E3007D6557 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3EBC4356174116F5007D6557 /* PersonDatas.h */,
+				3EBC4357174116F5007D6557 /* PersonDatas.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3EBC4307174111BC007D6557 /* BioCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EBC432B174111BC007D6557 /* Build configuration list for PBXNativeTarget "BioCalendar" */;
+			buildPhases = (
+				3EBC4304174111BC007D6557 /* Sources */,
+				3EBC4305174111BC007D6557 /* Frameworks */,
+				3EBC4306174111BC007D6557 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BioCalendar;
+			productName = BioCalendar;
+			productReference = 3EBC4308174111BC007D6557 /* BioCalendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3EBC4300174111BC007D6557 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NEO;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Sangwook Nam";
+			};
+			buildConfigurationList = 3EBC4303174111BC007D6557 /* Build configuration list for PBXProject "BioCalendar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				ko,
+			);
+			mainGroup = 3EBC42FF174111BC007D6557;
+			productRefGroup = 3EBC4309174111BC007D6557 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3EBC4307174111BC007D6557 /* BioCalendar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3EBC4306174111BC007D6557 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EBC431E174111BC007D6557 /* Default.png in Resources */,
+				3EBC4320174111BC007D6557 /* Default@2x.png in Resources */,
+				3EBC4322174111BC007D6557 /* Default-568h@2x.png in Resources */,
+				3EBC4339174112ED007D6557 /* NEODayView.xib in Resources */,
+				3EBC433C174112ED007D6557 /* NEOTitleView.xib in Resources */,
+				3EBC4353174116B1007D6557 /* RegisterPersonViewController.xib in Resources */,
+				3EBC4354174116B1007D6557 /* SelectPersonViewController.xib in Resources */,
+				3EBC435B17411764007D6557 /* Localizable.strings in Resources */,
+				3EBA7293174A47A2008788EF /* Icon.png in Resources */,
+				3EBA7295174A47AB008788EF /* Icon@2.png in Resources */,
+				3EBA729A174A4AD9008788EF /* NEOInfoViewController.xib in Resources */,
+				3E8FC4AB174B9A24005552DB /* screenshot_768_1024.png in Resources */,
+				3E8FC4AC174B9A24005552DB /* screenshot_320_480.png in Resources */,
+				3E8FC4AD174B9A24005552DB /* ItunesArtwork.png in Resources */,
+				3E8FC4B0174B9BA0005552DB /* screenshot_640_1136.png in Resources */,
+				3E8FC4B1174B9BA0005552DB /* screenshot_640_960.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3EBC4304174111BC007D6557 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EBC4318174111BC007D6557 /* main.m in Sources */,
+				3EBC431C174111BC007D6557 /* NEOAppDelegate.m in Sources */,
+				3EBC433A174112ED007D6557 /* NEODayView.m in Sources */,
+				3EBC433B174112ED007D6557 /* NEOTitleView.m in Sources */,
+				3EBC434217411319007D6557 /* NEOBiorhythmUtil.m in Sources */,
+				3EBC434317411319007D6557 /* NEODateUtil.m in Sources */,
+				3EBC434617411326007D6557 /* NEOCalendarView.m in Sources */,
+				3EBC434A174113EC007D6557 /* NEOCalendarViewController.m in Sources */,
+				3EBC4351174116B1007D6557 /* SelectPersonViewController.m in Sources */,
+				3EBC4352174116B1007D6557 /* RegisterPersonViewController.m in Sources */,
+				3EBC4358174116F5007D6557 /* PersonDatas.m in Sources */,
+				3EBE661817438A0F009704CF /* NEOCalloutView.m in Sources */,
+				3EB4BBA71744C65300A6BBF5 /* NEODatePickerSheet.m in Sources */,
+				3EBA7299174A4AD9008788EF /* NEOInfoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3EBC435D17411764007D6557 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EBC435C17411764007D6557 /* en */,
+				3EBC435E17411774007D6557 /* ko */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3EBC4329174111BC007D6557 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3EBC432A174111BC007D6557 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3EBC432C174111BC007D6557 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BioCalendar/BioCalendar-Prefix.pch";
+				INFOPLIST_FILE = "BioCalendar/BioCalendar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3EBC432D174111BC007D6557 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BioCalendar/BioCalendar-Prefix.pch";
+				INFOPLIST_FILE = "BioCalendar/BioCalendar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3EBC4303174111BC007D6557 /* Build configuration list for PBXProject "BioCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EBC4329174111BC007D6557 /* Debug */,
+				3EBC432A174111BC007D6557 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EBC432B174111BC007D6557 /* Build configuration list for PBXNativeTarget "BioCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EBC432C174111BC007D6557 /* Debug */,
+				3EBC432D174111BC007D6557 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3EBC4300174111BC007D6557 /* Project object */;
+}

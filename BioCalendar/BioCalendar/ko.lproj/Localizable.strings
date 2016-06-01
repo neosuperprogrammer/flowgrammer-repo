@@ -1,0 +1,17 @@
+/* 
+  Localizable.strings
+  BioCalendar
+
+  Created by Sangwook Nam on 13. 5. 13..
+  Copyright (c) 2013년 Sangwook Nam. All rights reserved.
+*/
+
+"SelectPerson" = "사용자 선택";
+"RegisterPerson" = "사용자 추가";
+"Back" = "뒤로";
+"Physical" = "신체";
+"Emotional" = "감성";
+"Intelligence" = "지성";
+"SelectPersonPlease" = "사용자를 선택해 주세요!";
+"Description" = "BioCalendar 는 바이오리듬을 캘린더에서 바로 확인할 수 있습니다. 또한 여러 사용자를 등록하여 손쉽게 사용이 가능합니다.";
+"Keyword" = "바이오,바이오리듬,달력,캘린더,Bio,Biorhythm,Cal,Calendar";
